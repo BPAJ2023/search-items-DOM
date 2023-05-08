@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formularze</title>
+</head>
+<body>
+    <div class="form--contener">
+        <form  class="form form--add">
+            <h1 class="form__title">Dodawanie elementu do HTML</h1>
+            <input type="text" name="elementHTML" placeholder="Podaj element HTML" class="form__input" required>
+            <input type="text" name="txt" placeholder="Podaj tekst do elementu" class="form__input">
+            <input type="text" name="attr" placeholder="Podaj atrybut elementu" class="form__input">
+            <input type="text" name="style" placeholder="Podaj nazwe i wartość atrybutu" class="form__input">
+            <button class="form__btn">dodaj element!</button>
+        </form>
+        <form  class="form form--search">
+            <h1 class="form__title">Wyszukiwanie elementu HTML</h1>
+            <input type="text" name="search" placeholder="Wyszukaj elementu HTML" class="form__input">
+            <button class="form__btn">Znajdź i pokaż element!</button>
+        </form>
+    </div>
+    <div class="result"></div>
+    <div class="content"></div>
+    <footer class="footer">Stopka</footer>
+    <script src="main.js"></script>
+</body>
+</html>
